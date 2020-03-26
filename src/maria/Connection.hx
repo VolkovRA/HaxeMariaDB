@@ -29,7 +29,7 @@ extern class Connection extends EventEmitter<Connection>
 	 * @param	callback Callback function with arguments: (error, results, metadata).
 	 * @return	Returns an Emitter object that can emit four different types of event: maria.ConnectorEvent.
 	 */
-	public function query(sql:EitherType<String,QueryOptions>, ?values:EitherType<Array<Dynamic>,Dynamic>, ?callback:SqlError->Dynamic->FieldInfo->Void):Query;
+	public function query(sql:EitherType<String,QueryOptions>, ?values:EitherType<Dynamic,Array<Dynamic>>, ?callback:SqlError->Dynamic->FieldInfo->Void):Query;
 	
 	/**
 	 * Implementation depend of server type and version.
