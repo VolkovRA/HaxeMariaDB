@@ -3,7 +3,7 @@
 Description
 ------------------------------
 
-The Haxe externs of MariaDB NodeJS Connector.
+The Haxe high quality extern definitions for MariaDB.
 
 See more of MariaDB connector:
 1. [GitHub repository](https://github.com/mariadb-corporation/mariadb-connector-nodejs "MariaDB Connector repository")
