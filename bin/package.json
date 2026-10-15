@@ -4,7 +4,7 @@
   "description": "The test project for Haxe externs of MariaDB",
   "main": "index.js",
   "dependencies": {
-    "mariadb": "^2.2.0"
+    "mariadb": "^3.2.5"
   },
   "devDependencies": {},
   "scripts": {
